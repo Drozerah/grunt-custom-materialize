@@ -1,0 +1,22 @@
+{
+  "name": "grunt-custom-materialize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "grunt:all": "grunt all",
+    "grunt:concat": "rm -rf ./build & grunt concat-js",
+    "grunt:dummyTask": "grunt dummyTask"
+  },
+  "keywords": [],
+  "author": "Thomas G. aka Drozerah <drozerah@gmail.com> (https://github.com/Drozerah)",
+  "license": "ISC",
+  "dependencies": {
+    "materialize-css": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.3.0",
+    "grunt-contrib-concat": "^1.0.1"
+  }
+}
